@@ -1,0 +1,34 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+html, body {
+  height: 100%;
+  background-color: lightgrey !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  font-size: 1.7em;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#home-container { margin-top: 25px }
+
+.jumbotron {
+  background-image: linear-gradient(
+      rgba($color: #000000, $alpha: 0.7), 
+      rgba($color: #c7c7c7, $alpha: 0.2)
+      ), asset-url('home-image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
